@@ -1,0 +1,22 @@
+.button{
+    display: block;
+    margin:auto;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.map{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    width: 80%;
+}
+
+.map-item{
+    padding: 2vmin;
+    font-size: 5vmin;
+}

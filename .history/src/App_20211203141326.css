@@ -1,0 +1,42 @@
+body{
+    user-select: none;
+}
+
+.button-container{
+    display: block;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    width: 10vmin;
+    height: 10vmin;
+    background-color: rgb(40, 151, 255);
+    color: white;
+    padding: 1vmin;
+    margin: 1vmin;
+    cursor: pointer;
+    text-align: center;
+    font-size: 3vmin;
+}
+
+.green{
+    background-color: green;
+}
+
+.map{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    width: 60%;
+}
+
+.map-item{
+    padding: 2vmin;
+    font-size: 7vmin;
+    transition: 1s;
+    color: rgb(161, 161, 161);
+}

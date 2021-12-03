@@ -1,0 +1,14 @@
+.button{
+    display: block;
+    margin:auto;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+}
+
+.map{
+    display: block;
+    margin: auto;
+    
+    width: fit-content;
+}
